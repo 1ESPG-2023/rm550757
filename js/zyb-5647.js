@@ -39,3 +39,15 @@
 //     if (item.textContent == "item-39")
 //     console.log(`${key+1} - ${item.textContent = "LOCALIZADO"}`) 
 // })
+
+function soma(parametro) {
+    nr1 = 10;
+    nr2 = 5;
+
+    return parseInt(nr1) + parseInt(nr2) + parseInt(parametro)
+
+    console.log(`Resultado : ${parseInt(nr1) + parseInt(nr2) + parseInt(parametro)}`)
+    console.log(`Este é o parâmetro que foi passado para a função : ${parametro}`)
+}
+
+soma();
