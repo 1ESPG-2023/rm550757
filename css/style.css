@@ -1,27 +1,32 @@
-.cabecalho{
+.cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 20vh;
-    background-color: blue;
-    color: #fff;
+    height: 20vw;
+    background-color: red;
+    color: #fff
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 60vh;
+    height: auto;
     background-color: blueviolet;
 }
 
-.container .l-e{
+.container .central{
     flex-grow: 5;
-    background-color: brown;
+}
+
+.container .l-e{
+    flex-grow: 1;
+    background-color: aqua;
 }
 
 .container .l-d{
-    flex-grow: 5;
-    background-color: coral;
+    flex-grow: 1;
+    background-color: rgb(60, 255, 86);
 }
+
